@@ -95,3 +95,22 @@ No exponer tokens ni credenciales en el repositorio.
 Usar .gitignore para excluir archivos temporales y sensibles.
 Documentar el código con comentarios técnicos claros.
 Mantener reproducibilidad en Google Colab utilizando rutas relativas.
+
+### Buenas prácticas de commits
+Cada commit debe describir exhaustivamente los cambios realizados, no solo un título genérico.
+
+Se recomienda hacer commits frecuentes y pequeños, ya que esto permite:
+
+Mayor trazabilidad del trabajo.
+
+Posibilidad de hacer rollback en puntos más precisos cuando ocurre un error.
+
+Mejor revisión por parte del QA.
+
+Evidenciar la secuencia de pasos del desarrollo en el historial de GitHub.
+
+Seguidos y descriptivos, para facilitar encontrarlos al hacer rollback.  
+Ejemplo de mensaje de commit:
+
+bash
+git commit -m "PROY-1: Agrego prácticas de commit sugeridas en README, para trazabilidad de rollback en caso de incidentes"
