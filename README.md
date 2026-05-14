@@ -43,7 +43,7 @@ El archivo se almacenará en la carpeta `/datos`.
 
 ---
 
-## ⚙️ Instrucciones de ejecución
+### ⚙️ Instrucciones de ejecución
 1. Clonar el repositorio:  
    ```bash
    git clone https://github.com/alevanfof/tp-clima-utn.git
@@ -83,6 +83,22 @@ La convención más usada es **prefix/nombre-tarea**, por ejemplo:
 👉 En este TP, la rama **sugerida para Gabriel** es `feature/analisis-clima`, ya que corresponde a su rol de desarrollador técnico.  
 
 ---
+
+📌 Gestión del proyecto en Jira
+El equipo utilizará Scrum en Jira para la planificación y trazabilidad de tareas.
+Acceso al tablero: Jira – TP Clima UTN: https://alevanfof.atlassian.net?continue=https%3A%2F%2Falevanfof.atlassian.net%2Fwelcome%2Fsoftware&atlOrigin=eyJpIjoiM2E1OWRjN2RlM2U3NDlmOWE0NzNkNTJlNzEwMzQ4YzciLCJwIjoiaiJ9
+
+Backlog: contiene los issues principales (PROY‑1, PROY‑2, PROY‑3).
+
+Sprint: cada integrante desarrolla su tarea en el ciclo definido.
+
+Roles:
+
+Alejandro → Líder / Product Owner
+
+Gabriel → Desarrollador técnico
+
+Josue → QA / Revisor
 
 ### 🧩 Práctica sugerida para crear ramas
 La práctica más actual es usar el comando:  
