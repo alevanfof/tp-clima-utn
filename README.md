@@ -49,13 +49,45 @@ El archivo se almacenará en la carpeta `/datos`.
    git clone https://github.com/alevanfof/tp-clima-utn.git
    cd tp-clima-utn
 
-📜 Normas de trazabilidad
-Cada commit debe iniciar con el ID del Issue de Jira correspondiente.
-Ejemplo:
+## 📜 Normas de trazabilidad
+Cada commit debe iniciar con el ID del Issue de Jira correspondiente.  
+Ejemplo:  
 
-Código
-PROY-2: Desarrollo del análisis climático
-Todo cambio debe realizarse en ramas específicas y luego integrarse mediante Pull Requests revisados por el QA.
+### Inicialización del repositorio (Issue PROY‑1 – Ale)
+```bash
+git add .
+git commit -m "PROY-1: Inicialización de estructura de carpetas y README"
+git push origin main
+
+### Desarrollo del análisis (Issue PROY‑2 – Gabriel)
+bash
+git add scripts/analisis_clima.py
+git commit -m "PROY-2: Desarrollo del análisis climático"
+git push origin feature/analisis-clima
+
+### Revisión y documentación (Issue PROY‑3 – Josue)
+bash
+git add README.md
+git commit -m "PROY-3: Mejora de documentación y revisión QA"
+git push origin main
+
+---
+
+### 🔎 Convención de nombres de ramas (feature sugerida)
+En Git, las ramas se nombran con convenciones que ayudan a organizar el trabajo.  
+La convención más usada es **prefix/nombre-tarea**, por ejemplo:  
+- `feature/analisis-clima` → rama para desarrollar una nueva funcionalidad (el análisis climático).  
+- `bugfix/correccion-lectura` → rama para corregir un error.  
+- `hotfix/token-seguridad` → rama para un arreglo urgente.  
+
+👉 En este TP, la rama **sugerida para Gabriel** es `feature/analisis-clima`, ya que corresponde a su rol de desarrollador técnico.  
+
+---
+
+### 🧩 Práctica sugerida para crear ramas
+La práctica más actual es usar el comando:  
+```bash
+git checkout -c feature/analisis-clima
 
 ✅ Buenas prácticas
 No exponer tokens ni credenciales en el repositorio.
