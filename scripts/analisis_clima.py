@@ -1,4 +1,5 @@
 import pandas as pd
+import matplotlib.pyplot as plt
 
 temperaturas = []
 precipitaciones = []
@@ -61,3 +62,4 @@ with open("datos/clima_rosario_2025.csv", "r") as archivo:
 
 datos = pd.DataFrame(lista_clima, columns=["Mes", "Temperatura"])
 datos.plot.bar(x="Mes", y="Temperatura")
+plt.savefig("resultados/grafico_temperaturas.png")
