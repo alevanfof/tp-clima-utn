@@ -7,7 +7,7 @@ lista_clima = []
 temp = 0
 lluvia = 0
 
-with open("../datos/clima_rosario_2025.csv", "r") as archivo:
+with open("datos/clima_rosario_2025.csv", "r") as archivo:
     lineas = archivo.readlines()
 
     for linea in lineas[1:]:
@@ -46,7 +46,7 @@ print("Temperatura minima", menor)
 lluvia_promedio = lluvia / 12
 print(f"Las precipitaciones promedio anual de 2025: {lluvia_promedio:.2f} mm")
 
-with open("../datos/clima_rosario_2025.csv", "r") as archivo:
+with open("datos/clima_rosario_2025.csv", "r") as archivo:
     lineas = archivo.readlines()
 
     for linea in lineas[1:]:
