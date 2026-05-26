@@ -20,13 +20,21 @@ El equipo desarrollará un script que procese datos meteorológicos históricos 
 
 ## 📂 Estructura del repositorio
 repo-proyecto/
+
 ├── datos/
-│   └── global-temp.csv
+
+│   └── clima_rosario_2025.csv
+
 ├── scripts/
+
 │   └── analisis_clima.py
+
 ├── resultados/
+
 │   └── grafico_temperatura.png
+
 ├── README.md
+
 └── .gitignore
 
 
