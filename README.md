@@ -30,7 +30,7 @@ repo-proyecto/
 └── .gitignore
 
 
----
+----
 
 ## 📊 Dataset utilizado
 Se emplea el dataset abierto de temperaturas globales:  
